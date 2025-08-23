@@ -5,11 +5,11 @@ renda = float(input("Digite a sua renda "))
 
 if renda < 2000:
     print("Sua renda é abaixo do mínimo para possuir este cartão de crédito")
-if renda >= 2000:
+elif renda >= 2000:
     print("Você receberá um limite de 1000 reais")
-if renda >= 4000: 
+elif renda >= 4000: 
     print("Você receberá um limite de 2000 reais")
-if renda >= 6000 and renda <= 10000:
+elif renda >= 6000 and renda <= 10000:
     print("Você receberá um limite te de 3000 reais")
-if renda >=10000:
+elif renda >=10000:
     print("Você tem um perfil para cartões Black fale com nosso gerente")
