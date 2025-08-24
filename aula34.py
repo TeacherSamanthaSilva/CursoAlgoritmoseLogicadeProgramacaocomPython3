@@ -1,4 +1,4 @@
-#exercicio 5
+#exercicio 50
 #crie uma função que faça a multiplicação de dois números
 #este números devem ser passados por parâmetro
 
