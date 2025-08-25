@@ -21,5 +21,13 @@ class Mamifero:
         self.comportamentosocial = True
         self.cuidadoparental = True
 
-    def apresentar(self)
+    def apresentar(self):
         return f"Olá eu sou um mamífero e possuo {self.glandulasmamarias}, {self.cerebrodesenvolvido}, {self.comportamentosocial}, {self.coracaocomdoisatrisedoisventriculos}, {self.cuidadoparental},{self.dentescaninos},{self.dentesincisivos} {self.destesmolares, {self.pelo}}"
+    
+class SerHumano(Mamifero):
+    def __init__(self,bipede,fala):
+        self.bipede = True
+        self.fala = True
+
+    def apresentar(self):
+        return f"Olá eu sou um ser humano  e sou {self.bipede},  e possuo a habilidade de {self.fala} "
