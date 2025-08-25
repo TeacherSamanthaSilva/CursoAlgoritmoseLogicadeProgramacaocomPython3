@@ -1,4 +1,4 @@
-#exercicio 37 
+#exercicio 57 
 #escreva uma função que receba uma lista de números e retorne apenas os números pares da lista
 
 def filtrar_pares(lista):
